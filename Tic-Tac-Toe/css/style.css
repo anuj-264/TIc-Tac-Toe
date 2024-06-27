@@ -1,0 +1,31 @@
+
+#reset{
+    background-color: grey;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.game-btn {
+    width: 100px;
+    height: 100px;
+    background-color:#314ac5;
+    border: 2px solid #9f1414;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.game-btn:hover {
+    background-color: #f9f9f9;
+    transform: scale(0.95);
+}
+
+.game-btn:active {
+    background-color: #e0e0e0;
+    transform: scale(0.95);
+}
